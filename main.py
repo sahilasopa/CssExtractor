@@ -68,9 +68,9 @@ def extract_css(html_files, css_files, output_css_file="extracted.css"):
 
 
 if __name__ == "__main__":
-    html_files = ["input.html"]  # Add more HTML files as needed
-    css_files = ["input.css"]  # Add more CSS files as needed
+    html_files = ["inputs/input.html"]  # Add more HTML files as needed
+    css_files = ["inputs/input.css"]  # Add more CSS files as needed
 
-    output_css_file = "extracted.css"
+    output_css_file = "output/extracted.css"
 
     extract_css(html_files, css_files, output_css_file)
